@@ -12,6 +12,7 @@
 		B687F1781BE35EB9005CB2F1 /* FSFunnyLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687F1771BE35EB9005CB2F1 /* FSFunnyLoginUITests.swift */; };
 		B687F1861BE35F6C005CB2F1 /* FSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687F1851BE35F6C005CB2F1 /* FSLoginViewController.swift */; };
 		B687F1881BE38469005CB2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B687F1871BE38469005CB2F1 /* Assets.xcassets */; };
+		B687F18A1BE3852D005CB2F1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B687F1891BE3852D005CB2F1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		B687F1791BE35EB9005CB2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B687F1851BE35F6C005CB2F1 /* FSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSLoginViewController.swift; sourceTree = "<group>"; };
 		B687F1871BE38469005CB2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B687F1891BE3852D005CB2F1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				B687F1851BE35F6C005CB2F1 /* FSLoginViewController.swift */,
 				B687F1871BE38469005CB2F1 /* Assets.xcassets */,
 				B687F1631BE35EB9005CB2F1 /* Info.plist */,
+				B687F1891BE3852D005CB2F1 /* Launch Screen.storyboard */,
 			);
 			path = FSFunnyLogin;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B687F18A1BE3852D005CB2F1 /* Launch Screen.storyboard in Resources */,
 				B687F1881BE38469005CB2F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
