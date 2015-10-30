@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B687F1581BE35EB9005CB2F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687F1571BE35EB9005CB2F1 /* AppDelegate.swift */; };
-		B687F15F1BE35EB9005CB2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B687F15E1BE35EB9005CB2F1 /* Assets.xcassets */; };
 		B687F16D1BE35EB9005CB2F1 /* FSFunnyLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687F16C1BE35EB9005CB2F1 /* FSFunnyLoginTests.swift */; };
 		B687F1781BE35EB9005CB2F1 /* FSFunnyLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687F1771BE35EB9005CB2F1 /* FSFunnyLoginUITests.swift */; };
 		B687F1861BE35F6C005CB2F1 /* FSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B687F1851BE35F6C005CB2F1 /* FSLoginViewController.swift */; };
+		B687F1881BE38469005CB2F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B687F1871BE38469005CB2F1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +34,6 @@
 /* Begin PBXFileReference section */
 		B687F1541BE35EB9005CB2F1 /* FSFunnyLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSFunnyLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B687F1571BE35EB9005CB2F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B687F15E1BE35EB9005CB2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B687F1631BE35EB9005CB2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B687F1681BE35EB9005CB2F1 /* FSFunnyLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSFunnyLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B687F16C1BE35EB9005CB2F1 /* FSFunnyLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSFunnyLoginTests.swift; sourceTree = "<group>"; };
@@ -43,6 +42,7 @@
 		B687F1771BE35EB9005CB2F1 /* FSFunnyLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSFunnyLoginUITests.swift; sourceTree = "<group>"; };
 		B687F1791BE35EB9005CB2F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B687F1851BE35F6C005CB2F1 /* FSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSLoginViewController.swift; sourceTree = "<group>"; };
+		B687F1871BE38469005CB2F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			children = (
 				B687F1571BE35EB9005CB2F1 /* AppDelegate.swift */,
 				B687F1851BE35F6C005CB2F1 /* FSLoginViewController.swift */,
-				B687F15E1BE35EB9005CB2F1 /* Assets.xcassets */,
+				B687F1871BE38469005CB2F1 /* Assets.xcassets */,
 				B687F1631BE35EB9005CB2F1 /* Info.plist */,
 			);
 			path = FSFunnyLogin;
@@ -226,7 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B687F15F1BE35EB9005CB2F1 /* Assets.xcassets in Resources */,
+				B687F1881BE38469005CB2F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FSFunnyLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSFunnyLogin;
@@ -384,6 +385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FSFunnyLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSFunnyLogin;
