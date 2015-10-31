@@ -107,8 +107,8 @@ class FSLoginViewController: UIViewController , UITextFieldDelegate {
         view.addSubview(rightHandImg!)
         
         //手rect2
-        let rectLeftHandGone = CGRect(x: 61 - offsetLeftHand, y: 90, width: 40, height: 65)
-        let rectRightHandGone = CGRect(x: loginImg!.frame.size.width / 2 + 60, y: 90, width: 40, height: 65)
+        let rectLeftHandGone = CGRect(x: 61 - offsetLeftHand, y: 90, width: 40, height: 60)
+        let rectRightHandGone = CGRect(x: loginImg!.frame.size.width / 2 + 60, y: 90, width: 40, height: 60)
         
         //左手图2
         leftHandGoneImg = UIImageView(frame: rectLeftHandGone)
@@ -131,8 +131,8 @@ class FSLoginViewController: UIViewController , UITextFieldDelegate {
             }
             showType = .FsLoginTypeShow_User
             UIView.animateWithDuration(0.5, animations: { () -> Void in
-                leftHandGoneImg!.frame = CGRect(x: 61 - offsetLeftHand, y: 90, width: 40, height: 65)
-                rightHandGoneImg!.frame = CGRect(x: loginImg!.frame.size.width / 2 + 60, y: 90, width: 40, height: 65)
+                leftHandGoneImg!.frame = CGRect(x: 61 - offsetLeftHand, y: 90, width: 40, height: 60)
+                rightHandGoneImg!.frame = CGRect(x: loginImg!.frame.size.width / 2 + 60, y: 90, width: 40, height: 60)
                 leftHandImg!.frame = CGRect(x: mainSize.width / 2 - 100, y: loginView!.frame.origin.y - 22, width: 40, height: 40)
                 rightHandImg!.frame = CGRect(x: mainSize.width / 2 + 62, y: loginView!.frame.origin.y - 22, width: 40, height: 40)
                 }, completion: { (Bool) -> Void in
@@ -148,8 +148,8 @@ class FSLoginViewController: UIViewController , UITextFieldDelegate {
                 leftHandGoneImg!.frame = CGRectMake(leftHandGoneImg!.frame.origin.x + offsetLeftHand, leftHandGoneImg!.frame.origin.y - 30, leftHandGoneImg!.frame.size.width, leftHandGoneImg!.frame.size.height);
                 rightHandGoneImg!.frame = CGRectMake(rightHandGoneImg!.frame.origin.x - 48, rightHandGoneImg!.frame.origin.y - 30, rightHandGoneImg!.frame.size.width, rightHandGoneImg!.frame.size.height);
                 
-                leftHandImg!.frame = CGRect(x: leftHandImg!.frame.origin.x + 40 , y: loginView!.frame.origin.y, width: 0, height: 0)
-                rightHandImg!.frame = CGRect(x: rightHandImg!.frame.origin.x - 40, y: loginView!.frame.origin.y, width: 0, height: 0)
+                leftHandImg!.frame = CGRect(x: leftHandImg!.frame.origin.x + 65 , y: loginView!.frame.origin.y, width: 0, height: 0)
+                rightHandImg!.frame = CGRect(x: rightHandImg!.frame.origin.x - 35, y: loginView!.frame.origin.y, width: 0, height: 0)
                 }, completion: { (Bool) -> Void in
             })
         }
