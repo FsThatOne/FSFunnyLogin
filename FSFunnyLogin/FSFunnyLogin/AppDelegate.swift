@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  FSFunnyLogin
 //
-//  Created by FS on 15/10/30.
+//  Created by FS on 15/7/30.
 //  Copyright © 2015 FSxiaoyi. All rights reserved.
 //
 

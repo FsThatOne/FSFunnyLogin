@@ -378,9 +378,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FSFunnyLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSFunnyLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSFunnyLoginView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -390,9 +391,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FSFunnyLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSFunnyLogin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fsymbio.FSFunnyLoginView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -464,6 +466,7 @@
 				B687F17E1BE35EB9005CB2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B687F17F1BE35EB9005CB2F1 /* Build configuration list for PBXNativeTarget "FSFunnyLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +475,7 @@
 				B687F1811BE35EB9005CB2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B687F1821BE35EB9005CB2F1 /* Build configuration list for PBXNativeTarget "FSFunnyLoginUITests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +484,7 @@
 				B687F1841BE35EB9005CB2F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
